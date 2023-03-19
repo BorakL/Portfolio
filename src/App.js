@@ -49,7 +49,7 @@ function App() {
             <li><a onClick={()=>setSidebarOpen(false)} href="#contact">Contact</a></li> 
             <li>
               <a onClick={()=>setSidebarOpen(false)} 
-                  href="borakl.github.io/Portfolio/blob/master/public/Resume.pdf"
+                  href="Portfolio/Resume.pdf"
                   target="_blank">Resume
               </a>
             </li>
