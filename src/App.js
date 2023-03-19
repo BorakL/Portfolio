@@ -46,8 +46,13 @@ function App() {
           <ul className={sidebarOpen ? "sidebarOpen" : ""}> 
             <li><a onClick={()=>setSidebarOpen(false)} href="#skills">Skills</a></li>
             <li><a onClick={()=>setSidebarOpen(false)} href="#work">Work</a></li>
-            <li><a onClick={()=>setSidebarOpen(false)} href="#contact">Contact</a></li>
-            <li><a onClick={()=>setSidebarOpen(false)} href="/resume.pdf"><b>Resume</b></a></li>
+            <li><a onClick={()=>setSidebarOpen(false)} href="#contact">Contact</a></li> 
+            <li>
+              <a onClick={()=>setSidebarOpen(false)} 
+                  href="borakl.github.io/Portfolio/blob/master/public/Resume.pdf"
+                  target="_blank">Resume
+              </a>
+            </li>
           </ul> 
           <div onClick={()=>setSidebarOpen((prev)=>!prev)} className={`hamburgerMenu ${sidebarOpen ? "sidebarOpen" : ""}`}>
             {sidebarOpen ? <MdClose/> : <GiHamburgerMenu/>}  
