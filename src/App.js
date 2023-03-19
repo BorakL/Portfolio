@@ -50,7 +50,8 @@ function App() {
             <li>
               <a onClick={()=>setSidebarOpen(false)} 
                   href="Resume.pdf"
-                  target="_blank">Resume
+                  target="_blank">
+                    <b>Resume</b>
               </a>
             </li>
           </ul> 
