@@ -67,7 +67,7 @@ function App() {
           <div>
             <p>Hi, my name is</p>
             <h1>LUKA BORAK</h1>  
-            <p>I'm software developer specializing in designing and building full stack web application</p>
+            <p>I'm software developer specializing in designing and building full stack web application.</p>
           </div>
           <div className='profileImage'>
             <div className='cover'></div>
